@@ -5,6 +5,20 @@
 	animation: meals-appear 1s ease-out forwards;
 }
 
+.MealsLoading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+.MealsError {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: red;
+}
+
 .meals ul {
 	list-style: none;
 	margin: 0;
